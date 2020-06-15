@@ -1,4 +1,5 @@
 #!/bin/bash
+exit 0
 set -e
 
 branch=$(git branch | sed -n -e 's/^\* \(.*\)/\1/p')
